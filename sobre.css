@@ -1,0 +1,148 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Título da página */
+.page-title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  /* Seção de informações */
+  .section-title {
+    margin-top: 30px;
+  }
+  
+  .section-text {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .logo{
+    width:150px;
+  }
+
+  #nossos-valores {
+    margin-top:30px;
+    
+  }
+  
+/* Foto do Time */
+.img-fluid {
+    width: 100%;
+  }
+
+  #autoral {
+    margin-top:10px;
+  }
+
+  #sobre-footer {
+    margin-top:10px;
+  }
+  
+  /* Seção de informações em dispositivos móveis */
+  @media (max-width: 767px) {
+    .section-title {
+      margin-top: 60px;
+    }
+    
+    .section-text {
+      font-size: 16px;
+    }
+
+      /* Navegação */
+    .navbar {
+      background-color: #f8f9fa;
+    }
+    
+    .nav-link {
+      font-size: 18px;
+    }
+    
+    .navbar-brand {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .titulo-sobre {
+      text-align:center;
+    }
+
+    #nossos-valores h2 {
+      text-align:center;
+    }
+
+    #nossa-historia h2, p {
+      text-align:center;
+    }
+
+    #autoral {
+      margin-top:10px;
+    }
+
+    #sobre-footer {
+      margin-right:20px;
+      text-align:center;
+    }
+
+
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-brand {
+      font-size: 20px;
+    }
+
+    .titulo-sobre {
+      text-align:center;
+    }
+
+    #nossos-valores h2 {
+      text-align:center;
+    }
+
+    #nossa-historia h2, p {
+      text-align:center;
+    }
+
+    #autoral {
+      margin-top:10px;
+    }
+
+    #sobre-footer {
+      margin-right:20px;
+      text-align:center;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-brand {
+      font-size: 18px;
+    }
+    
+    .nav-link {
+      font-size: 16px;
+    }
+
+    .titulo-sobre {
+      text-align:center;
+    }
+
+    #nossos-valores h2 {
+      text-align:center;
+    }
+
+    #nossa-historia h2, p {
+      text-align:center;
+    }
+
+    #autoral {
+      margin-top:10px;
+    }
+
+    #sobre-footer {
+      margin-right:20px;
+      text-align:center;
+    }
+  }
+  

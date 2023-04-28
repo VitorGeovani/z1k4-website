@@ -1,0 +1,181 @@
+/* Estilos globais */
+body {
+  font-family: 'Montserrat', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Estilos do Navbar */
+  .navbar {
+  background-color: #333;
+  }
+  
+  .navbar-brand {
+  color: #fff;
+  }
+  
+  .navbar-nav .nav-link {
+  color: #fff;
+  }
+
+  .logo{
+    width:150px;
+  }
+  
+  /* Estilos do banner principal */
+  #banner-principal {
+  background-image: url('https://picsum.photos/id/1033/2000/800');
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  #banner-principal h1 {
+  font-size: 5em;
+  color: #fff;
+  text-shadow: 2px 2px #333;
+  }
+  
+  /* Estilos das seções */
+  section {
+  padding: 80px 0px;
+  }
+  
+  section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  }
+
+  #sobre-nos {
+    justify-content:center;
+  }
+  #sobre-nos-detalhes {
+    
+    justify-content:center;
+    text-align:center;
+  }
+  
+  /* Estilos do time */
+  #time img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  }
+  
+  #time h3 {
+  margin-bottom: 10px;
+  }
+  
+  #time h4 {
+  font-weight: 400;
+  margin-bottom: 20px;
+  }
+
+  #texto-jogador {
+    color:black;
+    text-align:center;
+  }
+  
+  /* Estilos da seção de contatos */
+  #contato form {
+  max-width: 500px;
+  margin: 0 auto;
+  }
+  
+  #contato label {
+  display: block;
+  margin-bottom: 5px;
+  }
+  
+  #contato input,
+  #contato textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  }
+  
+  #contato input:focus,
+  #contato textarea:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px #333;
+  }
+  
+  #contato button {
+  padding: 10px 30px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  }
+  
+  #contato button:hover {
+  background-color: #222;
+  }
+  
+  /* Estilos do rodapé */
+  footer {
+  margin-top: 80px;
+  color: #fff;
+  }
+  
+  footer a {
+  color: #fff;
+  }
+  
+  footer a:hover {
+  color: #aaa;
+}
+
+/* Estilos responsivos */
+
+/* Navbar */
+@media (max-width: 991.98px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+  }
+}
+
+/* Banner principal */
+@media (max-width: 768px) {
+  #banner-principal h1 {
+    font-size: 3em;
+  }
+}
+
+/* Seção do time */
+@media (max-width: 768px) {
+  #time img {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+/* Seção de contatos */
+@media (max-width: 768px) {
+  #contato form {
+    max-width: 100%;
+  }
+}
+
+/* Footer */
+@media (max-width: 768px) {
+  #p-mb0 {
+    text-align:center;
+  }
+}
+
+
+@media (max-width: 576px) {
+  #contato input,
+  #contato textarea {
+    margin-bottom: 10px;
+  }
+}
+

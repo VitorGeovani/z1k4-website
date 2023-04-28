@@ -1,0 +1,61 @@
+/* Estilos para o formulário de contato */
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  form label {
+    font-weight: bold;
+  }
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  form input[type="text"]:focus,
+  form input[type="email"]:focus,
+  form textarea:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  form button[type="submit"] {
+    background-color: #f00;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  form button[type="submit"]:hover {
+    background-color: #d00;
+  }
+
+  .logo {
+    width:150px;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    margin-top: 100px;
+    color: #fff;
+  }
+  footer a {
+    color: #fff;
+  }
+
+
+  @media (max-width: 767px) {
+    .autoral {
+      text-align:center;
+    }
+  }
+  

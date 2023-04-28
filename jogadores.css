@@ -1,0 +1,140 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Estilos para dispositivos grandes */
+@media (min-width: 992px) {
+
+    /* Estilo para o título da página */
+    .page-title {
+      font-size: 3rem;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+      text-align: center;
+    }
+
+    .logo{
+      width:150px;
+    }
+  
+    /* Estilo para os cartões dos jogadores */
+    .card {
+      border-radius: 0;
+      border: none;
+      margin-bottom: 2rem;
+    }
+  
+    /* Estilo para a imagem dos jogadores */
+    .card-img-top {
+      height: 350px;
+      object-fit: cover;
+    }
+  
+    /* Estilo para o título dos jogadores */
+    .card-title {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+  
+    /* Estilo para a descrição dos jogadores */
+    .card-text {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+  
+  }
+  
+  /* Estilos para dispositivos médios */
+  @media (max-width: 991px) {
+  
+    /* Estilo para o título da página */
+    .page-title {
+      font-size: 2rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .logo{
+      width:150px;
+    }
+  
+    /* Estilo para os cartões dos jogadores */
+    .card {
+      border-radius: 0;
+      border: none;
+      margin-bottom: 1rem;
+    }
+  
+    /* Estilo para a imagem dos jogadores */
+    .card-img-top {
+      height: 250px;
+      object-fit: cover;
+    }
+  
+    /* Estilo para o título dos jogadores */
+    .card-title {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    /* Estilo para a descrição dos jogadores */
+    .card-text {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+  
+  }
+  
+  /* Estilos para dispositivos pequenos */
+  @media (max-width: 767px) {
+  
+    /* Estilo para o título da página */
+    .page-title {
+      font-size: 1.5rem;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .logo{
+      width:150px;
+    }
+
+    .jogs-title, .lead {
+      text-align:center;
+    }
+  
+    /* Estilo para os cartões dos jogadores */
+    .card {
+      border-radius: 0;
+      border: none;
+      margin-bottom: 1rem;
+    }
+  
+    /* Estilo para a imagem dos jogadores */
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+  
+    /* Estilo para o título dos jogadores */
+    .card-title {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    /* Estilo para a descrição dos jogadores */
+    .card-text {
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Estilo para o Footer */
+    #autoral {
+      text-align:center;
+    }
+  
+  }
+  
